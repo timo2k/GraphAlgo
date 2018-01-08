@@ -3,13 +3,11 @@ public class DirectedEdge extends Edge {
         super(firstNode, secondNode);
     }
 
-    //TODO: Implementierung
     public Node getFrom() {
-        return null;
+        return getFirstNode();
     }
 
-    //TODO: Implementioerung
     public Node getTo() {
-        return null;
+        return getSecondNode();
     }
 }

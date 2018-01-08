@@ -15,8 +15,8 @@ public class Edge {
         return secondNode;
     }
 
-    // TODO: Implementierung
     public Node[] getNodes() {
-        return null;
+        Node[] nodes = {firstNode, secondNode};
+        return nodes;
     }
 }

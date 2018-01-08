@@ -4,13 +4,11 @@ public class WeightDirectedEdge extends WeightedEdge {
         super(firstNode, secondNode, weight);
     }
 
-    //TODO Implementierung
     public Node getFrom() {
-        return null;
+        return getFirstNode();
     }
 
-    //TODO Implementierung
     public Node getTo() {
-        return null;
+        return getSecondNode();
     }
 }
